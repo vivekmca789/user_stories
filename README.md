@@ -61,13 +61,18 @@ API URL's and Request <br>
           ]
         }
  2. http://localhost:5000/api/commonstudents?teacher=test@gmail.com&teacher=testing@gmail.com <br>
- 3. http://localhost:5000/api/suspend
-       * Request Body 
+ 3. http://localhost:5000/api/suspend <br>
+ 
+        * Request Body 
+       
         {
          "student" : "test1@mail.com"
         }
+        
  4. http://localhost:5000/api/retrievefornotifications
-      * Request Body 
+     
+        * Request Body 
+      
         {
           "teacher" : "testing@gmail.com",
           "notification" : "Hello students! @testing1@mail.com @studentmiche@example.com"
