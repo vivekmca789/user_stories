@@ -14,7 +14,8 @@ ii.   Create database name (user_stories) and import user_stories.sql file (Find
 iii.  Open Terminal (CMD Prompt). <br>
 iv.   Select NodeJs files location in (CMD Prompt). <br>
 v.    Install npm package by using this command :- npm install  <br>
-vi.   After install npm package. Config database & host connections from dbConfig.js file. <br>
+vi.   After install npm package. Config database & host connections from dbConfig.js file. 
+      
       Eg:- 
           host : 'localhost', 
           user : 'root', 
@@ -22,8 +23,9 @@ vi.   After install npm package. Config database & host connections from dbConfi
           dbName : 'user_stories', 
           port : '3306' 
           
-If you want to change the project running (HOST & PORT)  <br>
+If you want to change the project running (HOST & PORT)  
       
+      Eg:-
         host: 'http://localhost', 
         port: '5000' 
         
