@@ -331,9 +331,13 @@ var user_stories    = {
                             
                         }
 
+                        var studentRecord      =   studentResult.filter(function(elem, index, self) {
+                                                        return index === self.indexOf(elem);
+                                                    });
+
                         //Success Status
                         notifyStatus    =   {
-                                                recipients : studentResult,
+                                                recipients : studentRecord,
                                                 msg        :'Notification successfully send'
                                             };
                     }
