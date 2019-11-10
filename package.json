@@ -1,0 +1,29 @@
+{
+  "name": "unfinity",
+  "version": "1.0.0",
+  "description": " project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vivek",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.2",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-myconnection": "^1.0.4",
+    "express-validator": "^5.3.1",
+    "form-serialize": "^0.7.2",
+    "http": "0.0.0",
+    "lodash": "^4.17.11",
+    "method-override": "^3.0.0",
+    "moment": "^2.24.0",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.19.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "utils": "^0.3.1"
+  }
+}
